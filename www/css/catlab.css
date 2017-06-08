@@ -1,0 +1,106 @@
+body {
+    background-color: #EAE534;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    color: #02DDA8;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #3DD1CD;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    width: 453px;
+    margin-bottom: 10px;
+}
+
+.download {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#appStore {
+    height: auto;
+    width: 100px;
+    display: inline;
+}
+
+#playStore {
+    height: auto;
+    width: 100px;
+    display: inline;
+}
+
+.newsletter {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;
+    background: #3DD1CD;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#fname {
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    border: 1px solid white;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #3DD1CD, #2FAAA6);
+}
